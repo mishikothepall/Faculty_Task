@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CourseList</title>
+</head>
+<body>
+    <div> 
+        @foreach (var c in Model) {
+            <p>@c.CourseName</p>
+            <p>@c.TeacherName</p>
+        }
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width" charset="UTF-8" />
+    @Styles.Render("~/Content/MyStyle.css")
+    @Scripts.Render("~/Scripts/MyScript.js")
+
+    @Scripts.Render("~/Scripts/jquery-3.3.1.js")
+    @Scripts.Render("~/Scripts/jquery.unobtrusive-ajax.js")
+    @Scripts.Render("~/Scripts/jquery.validate.min.js")
+    @Scripts.Render("~/Scripts/jquery.validate.unobtrusive.min.js")
+    <title>Training Center</title>
+</head>
+<body>
+    <header>
+        <div id="home-ref">@Html.ActionLink("Training Center", "HomePage", "Home")</div>
+        <div id="log-ref">
+        @if (!Request.IsAuthenticated)
+        {
+            @Html.ActionLink("Войти", "Login", "Home")
+            @Html.ActionLink("Регистрация", "Create", "Home")
+
+        }
+        else
+        {
+            @Html.ActionLink("Выйти", "LogOut", "Home")
+            @Html.ActionLink($"{User.Identity.Name}", "AccountInfo", "Student", new { name = User.Identity.Name }, new { id = "name" })
+        }
+            </div>
+        </header>
+    <div id="main-body">
+        @RenderBody()
+        @RenderSection("scripts", required: false)
+        <button  onclick="topFunction()" id="myBtn"><img src="~/Images/white-arrow.png" alt="arrow_up"></button>
+    </div>
+    <footer>
+        <h4>&copy; PodenkoMikhail.com 2019 <br> All Rights Reserved</h4>
+    </footer>
+</body>
+</html>

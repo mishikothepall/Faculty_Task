@@ -1,0 +1,57 @@
+﻿@model Faculty.Models.CourseCreateModel
+
+@{
+    ViewBag.Title = "AddCourse";
+    Layout = "~/Views/Shared/MyLayoutPage.cshtml";
+}
+
+
+<div id="course-info">
+
+    @using (Html.BeginForm("AddCourse", "Admin"))
+    {
+        <h2 id="tutor-name">
+            <label>Имя преподававтеля</label>
+            @Html.TextBoxFor(m => m.Tutor)
+        </h2>
+        <div id="tut-err">@Html.ValidationMessageFor(m => m.Tutor, null, new { @id = "danger-message" })</div>
+        <br>
+
+        <div id="course-general">
+
+            <label>Название курса</label>
+            <div id="c-name">
+                @Html.ValidationMessageFor(m => m.CourseName, null, new { @id = "danger-message" })
+                @Html.TextBoxFor(m => m.CourseName)
+            </div>
+            <br>
+
+            <label>Выберите тему курса</label>
+            <div id="c-subject">@Html.DropDownListFor(m => m.SelectedSubject, Model.Subjects)</div>
+            <br>
+
+            <label>Начало обуччения</label>
+            <div id="c-begin">@Html.TextBoxFor(m => m.BeginDate)</div>
+            <br>
+
+            <label>Конец обучения</label>
+            <div id="c-end">@Html.TextBoxFor(m => m.EndDate)</div>
+            <br>
+
+        </div>
+
+        <div id="course-descr">
+
+            <label>Описание курса</label>
+            @Html.TextAreaFor(m => m.Description)
+
+        </div>
+
+        <input type="submit" name="button" value="Подтвердить" id="accept">
+    }
+
+
+</div>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script> 

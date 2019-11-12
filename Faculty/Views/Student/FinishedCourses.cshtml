@@ -1,0 +1,12 @@
+﻿@model Faculty.Models.CourseViewModel
+@{
+    ViewBag.Title = "FinishedCourses";
+    Layout = "~/Views/Shared/MyLayoutPage.cshtml";
+}
+
+<h2>FinishedCourses</h2>
+
+@for (var i = 0; i < Model.Journal.Count; i++) {
+<p>@Model.Journal[i].StudentName</p>
+<p>@Model.Journal[i].Mark</p>
+}

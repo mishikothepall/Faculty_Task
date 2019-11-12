@@ -1,0 +1,23 @@
+﻿@model Faculty.Models.UserModel
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/MyLayoutPage.cshtml";
+}
+
+
+<div id="login-form">
+    @Html.ValidationSummary(false, "", new { @id = "danger-message" })
+    @using (Html.BeginForm("Create", "Home", FormMethod.Post))
+    {
+        <div id="userName">
+            <p>Ваше имя:  @Html.TextBoxFor(m => m.Name)</p>
+        </div>
+        <div id="email">
+            <p>Email: @Html.TextBoxFor(m => m.Email)</p>
+        </div>
+        <div id="password">
+            <p>Ваш пароль:  @Html.PasswordFor(m => m.Password)</p>
+        </div>
+        <input type="submit" name="submit" value="Подтвердить">
+    }
+</div>

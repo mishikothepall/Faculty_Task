@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Faculty.Models.CourseViewModel>
+    @foreach (var v in Model)
+    {
+        <div id="course-item">
+    <img src="~/Images/epam-university-840_EvEN7E8.png" alt="Course Icon">
+    <div id="course-desc">
+    <div id="title">@Html.ActionLink($"{v.CourseName}", "CourseDesc", "Home", new { name=v.CourseName}, new { id="name"}) </div>
+    <br>
+    <div id="tut">@Html.ActionLink($"{v.Tutor}", "TutorsCourses", "Home", new { id = v.TutorId }, new { id = "id" })</div>
+        </div>
+            </div>
+    }

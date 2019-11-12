@@ -1,0 +1,43 @@
+﻿@model Faculty.Models.StudentViewModel
+@using Faculty.Helpers
+@{
+    ViewBag.Title = "AccountInfo";
+    Layout = "~/Views/Shared/MyLayoutPage.cshtml";
+    var base64 = Convert.ToBase64String(Model.StudentPhoto);
+    var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+}
+
+
+
+<div id="user-info-form">
+    @using (Ajax.BeginForm("EditProfile", new AjaxOptions { UpdateTargetId = "userPhoto" }))
+    {
+        @Html.TextBoxFor(m => m.StudentName, Model.StudentName)
+        <br>
+        @Html.TextBoxFor(m => m.Age, Model.Age)
+
+        <br>
+        <input type='file' id="imgInp">
+        <input type="hidden" id="ph" name="ph">
+        <br>
+
+        <input type="submit" name="button" value="Подтвердить">
+    }
+
+    <div id="userPhoto">
+        @Html.Partial("EditProfile", TempData["Photo"])
+    </div>
+
+    <h3>Оконченные курсы</h3>
+    @ListHelper.ResultList(Html, Model.Journal)
+    <h3>Текущие курсы</h3>
+    @ListHelper.TutorsCourseList(Html, Model.Courses)
+
+    <div id="tut-reg">
+    @Ajax.ActionLink("Стать преподавателем", "ChangeStatus", new AjaxOptions { OnBegin = "Message()" })
+    </div>
+</div>
+
+
+
+<script type="text/javascript" src="~/Scripts/MyScript.js"></script>

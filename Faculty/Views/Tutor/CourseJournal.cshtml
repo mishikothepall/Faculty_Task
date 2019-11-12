@@ -1,0 +1,24 @@
+﻿@model Faculty.Models.CourseViewModel
+@{
+    ViewBag.Title = "CourseJournal";
+    Layout = "~/Views/Shared/MyLayoutPage.cshtml";
+}
+@Html.LabelFor(m => m.CourseName, Model.CourseName)
+<h2>CourseJournal</h2>
+@using (Html.BeginForm("EstimateStudents", "Tutor", FormMethod.Post))
+{
+    @Html.HiddenFor(m => m.CourseName, Model.CourseName)
+
+    for (var i = 0; i < Model.Journal.Count; i++)
+    {
+        @Html.HiddenFor(m => m.Journal[i].StudentName, Model.Journal[i].StudentName)
+        @Html.LabelFor(m => m.Journal[i].StudentName, Model.Journal[i].StudentName)
+        @Html.TextBoxFor(m => m.Journal[i].Mark, Model.Journal[i].Mark)
+        <br>
+    }
+
+    <input type="submit" name="button" value="Подтвердить">
+}
+
+
+

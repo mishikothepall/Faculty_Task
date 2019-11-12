@@ -1,0 +1,19 @@
+﻿@model Faculty.Models.CourseViewModel
+@{
+    ViewBag.Title = "MainPanel";
+    Layout = "~/Views/Shared/MyLayoutPage.cshtml";
+}
+
+<h2>MainPanel</h2>
+
+
+<div id="tutor-list">
+<p>Кандидаты</p>
+<div id="candidates">
+    @Html.Partial("TutorCandidates", TempData["Candidates"])
+</div>
+<p>Преподаватели</p>
+<div id="readyTutors">
+    @Html.Partial("TutorReady", TempData["Tutors"])
+</div>
+</div>

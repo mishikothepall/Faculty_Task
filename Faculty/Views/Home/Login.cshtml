@@ -1,0 +1,24 @@
+﻿@model Faculty.Models.LoginViewModel
+@{
+    Layout = "~/Views/Shared/MyLayoutPage.cshtml";
+}
+
+
+    <div id="login-form">
+        @Html.ValidationSummary()
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+        <input type="hidden" name="returnUrl" value="@TempData["returnUrl"]" />
+        <div id="userName">
+            <p>Ваше имя:  @Html.TextBoxFor(m => m.UserName)</p>
+            @Html.ValidationMessageFor(m => m.UserName, null, new { @id = "danger-message" })
+        </div>
+        <div id="password">
+            <p>Ваш пароль:  @Html.PasswordFor(m => m.Password)</p>
+            @Html.ValidationMessageFor(m => m.Password, null, new { @id = "danger-message" })
+        </div>
+            <input type="submit" name="submit" value="Подтвердить">
+        }
+    </div>
+

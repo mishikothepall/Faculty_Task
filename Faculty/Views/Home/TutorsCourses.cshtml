@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "TutorsCourses";
+    Layout = "~/Views/Shared/MyLayoutPage.cshtml";
+}
+
+@model Faculty.Models.TutorsViewModel
+@using Faculty.Helpers
+<h2>TutorsCourses</h2>
+
+@Html.LabelFor(m => m.TutorName, $"{Model.TutorName}")
+@ListHelper.TutorsCourseList(Html, Model.Courses)
+

@@ -1,0 +1,20 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>XmlData</title>
+</head>
+<body>
+    <div>
+        @foreach (var data in Model) {
+            <p>@data.UserName - @data.UserAction - @data.Date</p>
+        }
+    </div>
+</body>
+</html>

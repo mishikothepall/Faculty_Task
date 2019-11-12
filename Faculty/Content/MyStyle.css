@@ -1,0 +1,615 @@
+﻿* {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    min-height: 1000px;
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+header {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 7.7vh;
+    background-color: #7adede;
+}
+
+#log-ref {
+    position: relative;
+    display: block;
+    width: 35%;
+    height: 100%;
+    float: right;
+    padding-top: 1.7%;
+    top: -2%;
+}
+
+#log-ref a {
+    position: relative;
+    display: block;
+    float: left;
+    margin-right: 5%;
+    color: white;
+    font-size: larger;
+}
+
+#log-ref a:hover {
+    color: #00FFFF;
+}
+
+#home-ref {
+    position: relative;
+    display: block;
+    float: left;
+    width: 20%;
+    margin-left: 3%;
+    margin-top: 1.7%; 
+}
+
+#home-ref a {
+    color: white;
+    font-size:larger;
+}
+
+#home-ref a:hover {
+    color: #00FFFF;
+}
+/*------------BODY--------------------*/
+#main-body {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: inherit;
+    height: auto;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+#tut-err {
+    position: relative;
+    display: block;
+    width: 40%;
+    left: 25%;
+}
+
+#danger-message {
+    position: relative;
+    display: block;
+    font-size: medium;
+    font-weight: 900;
+    color: red;
+    overflow: hidden;
+}
+
+#login-form input[type="submit"]:hover {
+    background-color: #ff8080;
+    box-shadow: 0 10px 20px red;
+    color: black;
+}
+
+#login-form input[type="submit"] {
+    position: relative;
+    display: block;
+    width: 25%;
+    height: 30px;
+    float: right;
+    right: 45%;
+    bottom: 5%;
+    padding-top: 0.5%;
+    text-align: center;
+    background-color: red;
+    border: 2px solid #D3D3D3;
+    border-radius: 3px;
+}
+
+#email input[type="text"] {
+    position: relative;
+    width: 35%;
+    height: 20px;
+    margin-left: 8.5%;
+    border-radius: 3px;
+    color: black;
+}
+
+#email {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 5%;
+    float: left;
+    margin-left: 5%;
+    font-size: medium;
+ 
+}
+
+#password input[type="password"] {
+    position: relative;
+    width: 35%;
+    height: 20px;
+    border-radius: 3px;
+    color: black;
+}
+
+#password p {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 5%;
+    float: left;
+    margin-left: 5%;
+    font-size: medium;
+}
+
+#userName input[type="text"] {
+    position: relative;
+    width: 34%;
+    height: 15px;
+    margin-left: 3%;
+    border-radius: 3px;
+}
+
+#userName p {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 5%;
+    float: left;
+    margin-left: 5%;
+    font-size: medium;
+}
+
+#login-form {
+    position: relative;
+    display: block;
+    width: 50%;
+    min-height: 200px;
+    height: auto;
+    left: 18.5%;
+    margin-top: 10%;
+    padding-top: 0.5%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    background-color: #f9f9eb;
+    border: 2px solid #00b377;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#login-form form {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 200px;
+    height: auto;
+    margin-top: 10%;
+    padding-top: 0.5%;
+    padding-bottom: 3%;
+    background-color: #f9f9eb;
+
+}
+
+#subscr {
+    position: absolute;
+    display: block;
+    width: 30%;
+    height: 30px;
+    float: right;
+    right: 35%;
+    bottom: 5%;
+    padding-top: 0.5%;
+    text-align: center;
+    background-color: red;
+    border: 2px solid #D3D3D3;
+    border-radius: 3px;
+}
+
+#subscr a {
+    color: #F8F8FF;
+}
+
+#subscr:hover {
+        
+    background-color: #ff8080;
+    box-shadow: 0 10px 20px red;
+}
+
+#subscr:hover a {
+    color: black;
+}
+
+#course-info {
+    position: relative;
+    display: block;
+    width: 90%;
+    min-height: 900px;
+    height: auto;
+    left: 3.5%;
+    padding-top: 3%;
+    background-color: #f9f9eb;
+    border:2px solid #00b377;
+    border-radius: 3px;
+}
+
+ #course-info form {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#accept {
+    position: absolute;
+    display: block;
+    width: 30%;
+    height: 30px;
+    float: right;
+    right: 35%;
+    bottom: -2.5%;
+    padding-top: 0.5%;
+    text-align: center;
+    background-color: red;
+    border: 2px solid #D3D3D3;
+    border-radius: 3px;
+}
+
+#accept a {
+     color: #F8F8FF;
+}
+
+#accept:hover {
+    background-color: #ff8080;
+    box-shadow: 0 10px 20px red;
+}
+
+#accept:hover a {
+    color: black;
+}
+
+#course-descr {
+    position: relative;
+    display: block;
+    width: 70%;
+    min-height: 200px;
+    height: auto;
+    margin-top: 1%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#course-descr textarea {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+    margin-left: 10%;
+}
+
+#tutor-name {
+    position: relative;
+    width: 40%;
+    height: 15%;
+    margin-left: 10%;
+}
+
+#course-general {
+    position: relative;
+    display: block;
+    width: 75%;
+    height: 30%;
+    padding-left: 0.5%;
+}
+
+#course-general select {
+    position: relative; 
+    display: block;
+    width: 20%;
+}
+
+#course-name {
+    position: relative;
+    width: 40%;
+    height: 15%;
+    margin-left: 45%;
+}
+
+#search {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 20%;
+    top: 80%;
+    background-color: #4d4d4d;
+}
+
+#search form {
+    position: relative;
+    display: block;
+    float: left;
+    width: 60%;
+    height: 20%;
+    margin-left: 20%;
+}
+
+
+#search form input[type="text"] {
+     width: 40%;
+     height: 20px;
+     border-radius: 3px;
+}
+
+#search form input[type=submit] {
+     position: relative;
+     width: 10%;
+     height: 28px;
+     margin-top: 1.5%;
+     font-family: Tahoma;
+     font-size: 12pt;
+     color: white;
+     background-color: #73abc7;
+     border: none;
+}
+
+#search form input[type=submit]:hover {
+      color: #00FFFF;
+      background-color: #80b2cc;
+      box-shadow: 0 10px 20px #8cb2b2;
+}
+
+#search form select {
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      border-radius: 3px;
+      height: 25px;
+      padding-left: 1%;
+}
+
+#search form select:hover {
+      border: 2px solid #73abc7;
+      box-shadow: 0 10px 20px #8cb2b2;
+}
+
+#courses {
+    position: relative;
+    display: block;
+    width: 80%;
+    min-height: inherit;
+    height: auto;
+    padding-left: 10%;
+    padding-bottom: inherit;
+    margin-top: 5%;
+    overflow:hidden;
+    
+}
+/*-------Course Item-------*/
+#course-item {
+    position: relative;
+    display: block;
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin-bottom: inherit;
+    margin-right: 0.2%;
+    margin-top: 0.2%;
+    background-color: azure;
+    border: 1px solid black;
+}
+
+#course-desc {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 33%;
+    top: -35%;
+    background: rgb(128, 128, 128, 0.5);
+}
+
+#course-desc a {
+    color: azure;
+}
+
+#course-desc :hover a {
+    color: #FF3300;
+}
+
+/*----------------------------slideshow-------------------------*/
+.slideshow {
+    position: relative;
+    width: 50%;
+    height: 400px;
+    margin: auto;
+
+}
+
+.slide {
+    display: none;
+    color: red;
+}
+
+.sub-logo {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-height: 370px;
+    object-fit: cover;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -52px;
+    padding-right: 3%;
+    padding: 16px;
+    color: orangered;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.sub-name {
+    position: absolute;
+    display: block;
+    width: 60%;
+    height: 17.5%;
+    top: 75%;
+    padding-left: 40%;
+    color: azure;
+    background-color:#999999;
+    opacity: 0.8;
+}
+
+.sub-name h2> a {
+    color: azure;
+    margin-top: 1%;
+    font-size: larger;
+}
+
+.next {
+    right: 0;
+}
+/*------------------------------------------------------------------*/
+
+
+#title {
+    position:relative;
+    display: block;
+    margin-left: 37%;
+    bottom:0;
+}
+
+#tut {
+    position: relative;
+    display: block;
+    bottom: 0;
+}
+
+#user-info-form {
+    position: relative;
+    width: 80%;
+    min-height: 800px;
+    height: auto;
+    margin-left: 10%;
+    padding-left: 3%;
+    padding-top: 4%;
+    border: 1px solid #00FFCC;
+    background-color: ghostwhite;
+    border-radius: 3px;
+    text-align: left;
+    overflow:hidden;
+}
+
+#user-info-form form input[type="submit"] {
+    position: relative;
+    display: block;
+    width: 20%;
+    height: 30px;
+    bottom: 5%;
+    padding-top: 0.5%;
+    text-align: center;
+    background-color: red;
+    border: 2px solid #D3D3D3;
+    border-radius: 3px;
+}
+
+#user-info-form form input[type="submit"] a {
+    color: #F8F8FF;
+}
+
+#user-info-form form input[type="submit"]:hover {
+     background-color: #ff8080;
+     box-shadow: 0 10px 20px red;
+}
+
+#tut-reg {
+     position: relative;
+     display: block;
+     width: 30%;
+     height: 30px;
+     bottom: 5%;
+     padding-top: 0.5%;
+     text-align: center;
+     background-color: red;
+     border: 2px solid #D3D3D3;
+     border-radius: 3px;
+}
+
+#tut-reg a {
+    color: #F8F8FF;
+}
+
+#tut-reg:hover {
+     background-color: #ff8080;
+     box-shadow: 0 10px 20px red;
+}
+
+ #userPhoto {
+    position: absolute;
+    width: 70%;
+    height: 60%;
+    top: 10%;
+    float: right;
+    left: 40%;
+  }
+
+footer {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    height: auto;
+    padding-top: 3%;
+    background-color: #333333;
+}
+
+footer h4 {
+     position: relative;
+     width: 20%;
+     margin-left: 40%;
+     color: azure;
+     font-size: medium;
+     text-align: center;
+}
+
+#myBtn {
+    position: fixed;
+    visibility: hidden;
+    width: 5%;
+    height: 60px;
+    left: 93%;
+    top: 71%;
+    margin-top: 2%;
+    padding-bottom: 0.3%;
+    background-color: #7adede;
+    border-radius: 50%;
+    border: none;
+    z-index: 10;
+}
+
+#myBtn:hover {
+    background-color: #00FFFF;
+    box-shadow: 0 10px 15px #8cb2b2;
+}
+
+#myBtn img {
+    transform: rotate(180deg); 
+}
+

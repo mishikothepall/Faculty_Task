@@ -1,0 +1,12 @@
+﻿@model List<Faculty.Models.CourseViewModel>
+
+@{
+    ViewBag.Title = "CurrentCourses";
+    Layout = "~/Views/Shared/MyLayoutPage.cshtml";
+}
+
+<h2>CurrentCourses</h2>
+
+@for (var i=0; i< Model.Count; i++) {
+    @Html.ActionLink($"{Model[i].CourseName}","CourseDesc", "Home", new { name=Model[i].CourseName}, new { id="name"})
+}

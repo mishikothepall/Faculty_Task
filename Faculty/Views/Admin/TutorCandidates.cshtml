@@ -1,0 +1,5 @@
+﻿@model IEnumerable<Faculty.Models.StudentViewModel>
+    @foreach (var s in Model) {
+        <label>@s.StudentName</label>
+        @Ajax.ActionLink("Подтвердить заявку", "TutorReady", new { name = s.StudentName }, new AjaxOptions { UpdateTargetId= "tutor-list, #readyTutors", Confirm = "registered" })
+    }

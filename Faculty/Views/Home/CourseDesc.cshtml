@@ -1,0 +1,32 @@
+﻿@model Faculty.Models.CourseViewModel
+@{
+    ViewBag.Title = "CourseDesc";
+    Layout = "~/Views/Shared/MyLayoutPage.cshtml";
+}
+<div id="course-info">
+<h2 id="course-name">@Html.LabelFor(m => m.CourseName, Model.CourseName)</h2>
+
+<div id="course-general">
+<br>
+@Html.LabelFor(m=>m.Tutor, Model.Tutor)
+<br>
+@Html.LabelFor(m=>m.BeginDate, Model.BeginDate)
+<br>
+@Html.LabelFor(m=>m.EndDate, Model.EndDate)
+<br>
+</div>
+<div id="course-descr">
+@Html.LabelFor(m=>m.Description, Model.Description)
+</div>
+<div id="subscr">
+    @if (Request.IsAuthenticated)
+    {
+        @Html.ActionLink("Записаться на курс", "Subscribe", "Home", new { reg = $"{User.Identity.Name}/{Model.CourseName}" }, new { id = "reg" })
+    }
+    else
+    {
+        @Html.ActionLink("Для записи зарегестрируйтесь на нашем ресурсе", "Create", "Home")
+    }
+</div>
+</div>
+

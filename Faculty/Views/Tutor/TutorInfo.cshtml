@@ -1,0 +1,14 @@
+﻿@model Faculty.Models.TutorsViewModel
+@{
+    ViewBag.Title = "TutorInfo";
+    Layout = "~/Views/Shared/MyLayoutPage.cshtml";
+}
+
+<h2>TutorInfo</h2>
+<label>@Model.TutorName</label>
+<br>
+@foreach (var course in Model.Courses) {
+@Html.ActionLink($"{course}", "CourseJournal", "Tutor", new { subj = course}, new { id="subj"})
+<br>
+}
+

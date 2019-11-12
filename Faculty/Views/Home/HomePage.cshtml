@@ -1,0 +1,46 @@
+﻿@model Faculty.Models.SearchTemplate
+@using Faculty.Helpers
+
+@{
+    ViewBag.Title = "HomePage";
+    Layout = "~/Views/Shared/MyLayoutPage.cshtml";
+}
+
+<div class="slideshow">
+
+    @for (var i = 0; i<Model.Subjects.Count; i++)
+    {
+    <div class="slide">
+
+        <img src="@Url.Content(Model.Subjects[i].SubjLogo)" alt="Subject Icon" class="sub-logo">
+        <div class="sub-name"> <h2>@Ajax.ActionLink($"{Model.Subjects[i].SubjectName}", "HomePartial", new { name = Model.Subjects[i].SubjectName}, 
+                                  new AjaxOptions { UpdateTargetId = "courses" }, new { @class = "name" })</h2></div>
+
+
+    </div>
+    }
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<div id="search">
+    @using (Ajax.BeginForm("HomePartial", "Home", null, new AjaxOptions { UpdateTargetId = "courses", HttpMethod = "POST" }, new { @id = "search-form" }))
+    {
+        <input type="hidden" id="name">
+        <p>
+        @Html.DropDownListFor(m => m.SelectedFilter, Model.Filters)
+        @Html.TextBoxFor(m => m.Search)
+        <input type="submit" name="button" value="Поиск">
+    </p>
+}
+</div>
+
+<div id="courses">
+    @Html.Partial("HomePartial", Model.Courses)
+</div>
+
+<br>
+
+
+
+<script type="text/javascript" src="~/Scripts/MyScript.js"></script>
