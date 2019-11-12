@@ -1,0 +1,76 @@
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\BusLayer.dll
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\BusLayer.pdb
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\DataLayer.dll
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.dll
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Owin.dll
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\DataLayer.pdb
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\DataLayer.dll.config
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.xml
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\EntityFramework.xml
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\obj\Debug\BusLayer.csprojAssemblyReference.cache
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\obj\Debug\BusLayer.csproj.CoreCompileInputs.cache
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\obj\Debug\BusLayer.csproj.CopyComplete
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\obj\Debug\BusLayer.dll
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\obj\Debug\BusLayer.pdb
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\BusLayer.dll.config
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\EntityFramework.dll
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\AutoMapper.dll
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\AutoMapper.pdb
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\AutoMapper.xml
+C:\Users\Миша\Desktop\Version\Fclty2\Faculty\BusLayer\bin\Debug\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\BusLayer.dll.config
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\BusLayer.dll
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\BusLayer.pdb
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\AutoMapper.dll
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\DataLayer.dll
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\EntityFramework.dll
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.dll
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Owin.dll
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\DataLayer.pdb
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\DataLayer.dll.config
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\AutoMapper.pdb
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\AutoMapper.xml
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\EntityFramework.xml
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.xml
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\bin\Debug\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\obj\Debug\BusLayer.csprojAssemblyReference.cache
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\obj\Debug\BusLayer.csproj.CoreCompileInputs.cache
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\obj\Debug\BusLayer.csproj.CopyComplete
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\obj\Debug\BusLayer.dll
+C:\Users\poden\OneDrive\Рабочий стол\Fclty2\Faculty\BusLayer\obj\Debug\BusLayer.pdb
