@@ -183,7 +183,6 @@ namespace DataLayer.Factories
                 IdentityResult role = userMgr.AddToRole(user.Id, "student");
                 db.Students.Add(new Student {
                 StudentName=user.UserName,
-                //UserPhoto = File.ReadAllBytes("C:/Users/Миша/Desktop/painthub.jpg")
                 });
 
                 ClaimsIdentity identity = userMgr.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
